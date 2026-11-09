@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: white;
+    color: #000;
+}
+
+#he1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacedivs {
+    padding: 7%;
+}
+
+.spacedivs > h1 {font-size: 500%; padding-bottom: 3%;}
+.spacedivs > h2 {font-size: 400%;}
+.spacedivs > h3 {font-size: 300%;}
+.spacedivs > h4 {font-size: 200%;}
+.spacedivs > h5 {font-size: 100%;}
