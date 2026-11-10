@@ -24,3 +24,23 @@ body {
 .spacedivs > h3 {font-size: 300%;}
 .spacedivs > h4 {font-size: 200%;}
 .spacedivs > h5 {font-size: 100%;}
+
+.footer a.bi {
+    color: white;
+    font-size: 150%;
+    transition: .5s;
+    &.bi-instagram:hover {
+        color: palevioletred;
+    }
+}
+
+#footerlinks > a {
+    width: 100vw;
+    display: inline-block;
+    padding-bottom: 1%;
+    color: white;
+    transition: .5s;
+    &:hover {
+        color: pink;
+    }
+}
