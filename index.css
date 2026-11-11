@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url("./fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url("./fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +16,7 @@ body {
     overflow-x: hidden;
     background: white;
     color: #000;
+    font-family: 'Quicksand';
 }
 
 #he1 {
