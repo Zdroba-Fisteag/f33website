@@ -30,11 +30,11 @@ body {
     padding: 7%;
 }
 
-.spacedivs > h1 {font-size: 500%; padding-bottom: 3%;}
-.spacedivs > h2 {font-size: 400%;}
-.spacedivs > h3 {font-size: 300%;}
-.spacedivs > h4 {font-size: 200%;}
-.spacedivs > h5 {font-size: 100%;}
+.spacedivs > h1, .footer > h1 {font-size: 500%; padding-bottom: 3%;}
+.spacedivs > h2, .footer > h2 {font-size: 400%;}
+.spacedivs > h3, .footer > h3 {font-size: 300%;}
+.spacedivs > h4, .footer > h4 {font-size: 200%;}
+.spacedivs > h5, .footer > h5 {font-size: 100%;}
 
 .footer a.bi {
     color: white;
@@ -49,7 +49,7 @@ body {
     width: 100vw;
     display: inline-block;
     padding-bottom: 1%;
-    color: white;
+    color: lightseagreen;
     transition: .5s;
     &:hover {
         color: pink;
